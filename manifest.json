@@ -1,6 +1,6 @@
 {
   "short_name": "Virtual Mentor App",
   "name": "Virtual Mentor",
-  "start_url": "./",
+  "start_url": ".",
   "display": "standalone"
 }
