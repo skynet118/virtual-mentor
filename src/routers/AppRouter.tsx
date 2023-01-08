@@ -1,5 +1,5 @@
 import { HashRouter, Route, Routes, Navigate, Outlet } from "react-router-dom";
-import HomePage from "../pages/HomePage"
+import HomePage from "../pages/Home/HomePage"
 import { Fragment } from "react";
 
 

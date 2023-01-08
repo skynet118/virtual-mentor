@@ -15,7 +15,7 @@ export const LinkButtonPrimary = ({children, onClick, classes=""}:
                     flex items-center justify-center
                     h-[50px] text-[#141136]
                     bg-[#FFD600] hover:bg-[#FFF600]
-                    rounded-md`}
+                    rounded-md ${classes?? ""}`}
             >
             { children } 
         </button>

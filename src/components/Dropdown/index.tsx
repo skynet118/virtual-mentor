@@ -17,7 +17,7 @@ const Dropdown = ({ menuName, options}:
             </span>
             { expandMenu ?
             <ul className={`w-[120px] rounded p-[10px]
-                            text-center absolute
+                            text-center absolute z-10
                             top-[30px] bg-[#141136]
                             border text-[#00FF80] border-[#00FF80] 
                             `
