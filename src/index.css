@@ -1,70 +1,171 @@
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+/*.f-medium {
+/*	font-family: 'Montserrat';
+/*	font-weight: 500;
+/*}
+/*
+/**, .f-regular {
+/*	font-family: 'Montserrat';
+/*	font-weight: 400;
+/*}
+/*
+/*.f-light {
+/*	font-family: 'Montserrat';
+/*	font-weight: 300;
+/*}
+/*
+/*.f-thin {
+/*	font-family: 'Montserrat';
+/*	font-weight: 100;
+/*}
+/*
+/*
+/*.f-bold {
+/*	font-family: 'Montserrat';
+/*	font-weight: 700;
+/*}
+/*
+/*.f-semibold {
+/*	font-family: 'Montserrat';
+/*	font-weight: 600;
+/*}
+/*:root {
+/*	--color-body: #F5F5F5;
+/*	--color-white: #FFFFFF;
+/*	--color-black-light: #D2D6DE;
+/*	--color-black-dark: #000000;
+/*	--color-black: #737373;
+/*	--color-error: #EC5844;
+/*	--color-success: #55BA47;
+/*	--color-primary: #00AEE8;
+/*	--color-primary-dark: #263B92;
+/*	--color-secondary: #D7D7D7;
+/*	--color-transparent: rgba(0,0,0,0);
+/*	--color-black-opacity: rgba(0, 0, 0, 0.4);
+/*}
+/*
+/*
+/**, .color-black {
+/*	color: var(--color-black);
+/*}
+/*
+/*.color-black-dark {
+/*	color: var(--color-black-dark);
+/*}
+/*
+/*.color-black-light {
+/*	color: var(--color-black-light);
+/*}
+/*
+/*.color-primary {
+/*	color: var(--color-primary);
+/*}
+/*
+/*.color-white {
+/*	color: var(--color-white);
+/*}
+/*
+/*.color-error {
+/*	color: var(--color-error);
+/*}
+/*
+/*.color-success {
+/*	color: var(--color-success);
+/*}
+/*
+/*.border-color-black-light {
+/*	/* border: 1px solid var(--color-black-light); */
+/*	border-color: var(--color-black-light);
+/*}
+/*
+/*.bg-color-white {
+/*	background-color: var(--color-white);
+/*}
+/*
+/*.bg-color-secondary {
+/*	background-color: var(--color-secondary);
+/*}
+/*.bg-color-success {
+/*	background-color: var(--color-success);
+/*}
+/*
+/*.bg-color-primary {
+/*	background-color: var(--color-primary);
+/*}
+/*
+/*.bg-color-black-opacity {
+/*	background-color: var(--color-black-opacity);
+/*}
+/*
+/*.bg-color-transparent {
+/*	background-color: var(--color-transparent);
+/*}
+/*
+/*
+/*
+/*.color-primary-dark {
+/*	color: var(--color-primary-dark);
+/*}
+/*
+/*.border-color-success {
+/*	border: 1px solid var(--color-success);
+/*}
+/*
+/*.border-color-error {
+/*	border: 1px solid var(--color-error);
+/*}
+/*
+/*.border-color-secondary {
+/*	border-color: var(--color-secondary);;
+/*}
+/*
+/*
+/*.border-color-primary {
+/*	border-color: var(--color-primary);;
+/*}
+/*
+/*.border-color-error:focus {
+/*	outline: none !important;
+/*}
+/*
+/*.border-color-success:focus {
+/*	outline: none !important;
+/*}
+/*
+/*.border-color-black-light:focus {
+/*	outline: none !important;
+/*}
+/*
+/*
+/*.title {
+/*	font-size: 28px;
+/*}
+/*
+/*.subtitle {
+/*	font-size: 20px;
+/*}
+/*
+/*body {
+/*	background-color: var(--color-body);
+/*}
+/*
+/*code {
+/*	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+/*}
+/*
+/*
+/* 
+/*.styled-select select {
+/*    -moz-appearance:none; /* Firefox */
+/*    -webkit-appearance:none; /* Safari and Chrome */
+/*    appearance:none;
+/*
+/*}
+/*
+/* */
