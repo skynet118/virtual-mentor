@@ -104,7 +104,7 @@ Error generating stack: `+o.message+`
                     flex items-center justify-center
                     h-[50px] text-[#141136]
                     bg-[#FFD600] hover:bg-[#FFF600]
-                    rounded-md ${n??""}`,children:e}),av="/assets/mainLogo-74b37979.png",Uf="/assets/logo-ab0136d7.svg",cv="/assets/whatsappLogo-357d9fc4.svg",ua=({menuName:e,options:t})=>{const[n,r]=x.useState(!1);return je("div",{className:"relative inline-block my-auto",children:[je("span",{className:"text-[#00FF80] cursor-pointer flex items-center",onClick:()=>r(l=>!l),children:[e,L("svg",{className:"ml-[10px] "+(n?"rotate-180":"rotate-0"),width:"13",height:"6",viewBox:"0 0 13 6",fill:"none",children:L("path",{d:"M1 1L7 5L12 1",stroke:"#00FF80"})})]}),n?L("ul",{className:`w-[120px] rounded p-[10px]
+                    rounded-md ${n??""}`,children:e}),av="/virtual-mentor/assets/mainLogo-74b37979.png",Uf="/virtual-mentor/assets/logo-ab0136d7.svg",cv="/virtual-mentor/assets/whatsappLogo-357d9fc4.svg",ua=({menuName:e,options:t})=>{const[n,r]=x.useState(!1);return je("div",{className:"relative inline-block my-auto",children:[je("span",{className:"text-[#00FF80] cursor-pointer flex items-center",onClick:()=>r(l=>!l),children:[e,L("svg",{className:"ml-[10px] "+(n?"rotate-180":"rotate-0"),width:"13",height:"6",viewBox:"0 0 13 6",fill:"none",children:L("path",{d:"M1 1L7 5L12 1",stroke:"#00FF80"})})]}),n?L("ul",{className:`w-[120px] rounded p-[10px]
                             text-center absolute z-10
                             top-[30px] bg-[#141136]
                             border text-[#00FF80] border-[#00FF80] 
